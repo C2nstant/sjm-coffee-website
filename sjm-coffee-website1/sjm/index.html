@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SJM Coffee</title>
+<link rel="icon" href="images/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<header><div class="wrap">
+<a class="brand" href="#home"><img src="images/logo.png" alt="SJM Coffee logo"><span>SJM Coffee</span></a>
+<nav aria-label="Main"><a href="#home" data-p="home">Home</a><a href="#features" data-p="features">Features</a><a href="#products" data-p="products">Menu</a><a href="#contact" data-p="contact">Contact</a></nav>
+<button class="ib" id="theme" aria-label="Toggle dark mode">🌙</button>
+<button class="cartb" id="cartBtn" aria-label="Open cart">Cart <b id="cc">0</b></button>
+</div></header>
+<main>
+<div class="page" id="home">
+<div class="hero"><div class="wrap">
+<div class="ht"><h1>Coffee that<br>feels like home.</h1>
+<p>SJM Coffee roasts in small batches and bakes before sunrise. Order ahead online and pick up while it's still warm.</p>
+<p><a class="btn" href="#products">Order now</a> <a class="btn alt" href="#features">Why SJM</a></p>
+<div class="mini"><span><b data-n="4800">0</b>cups served</span><span><b data-n="14">0</b>menu items</span><span><b data-n="4.9" data-d="1">0</b>avg rating</span></div></div>
+<div class="arch"><div class="ph"><span class="phn">Hero photo<br><small>images/hero.jpg</small></span><img src="images/hero.jpg" alt="SJM Coffee cup and bread" onerror="this.remove()"></div><img class="seal" src="images/logo.png" alt=""></div>
+</div></div>
+<div class="marq" aria-hidden="true"><div><span>Espresso</span><span>Pandesal</span><span>Spanish Latte</span><span>Croissant</span><span>Cold Brew</span><span>Ensaymada</span><span>Espresso</span><span>Pandesal</span><span>Spanish Latte</span><span>Croissant</span><span>Cold Brew</span><span>Ensaymada</span></div></div>
+
+<section><div class="wrap two"><div class="ph tall"><span class="phn">About photo<br><small>images/about.jpg</small></span><img src="images/about.jpg" alt="Inside SJM Coffee" loading="lazy" onerror="this.remove()"></div>
+<div><h2>Who we are</h2><p>SJM Coffee is a neighborhood café and bakery. We believe a good cup and a warm loaf make any day better, so we roast our beans in small batches and bake our breads before the doors open.</p>
+<p>Our mission is to serve honest coffee at fair prices, and to give students, workers and families a place to slow down.</p>
+<div class="w5"><div><b>Who</b>A local café and bakery</div><div><b>What</b>Coffee, cold drinks and fresh bread</div><div><b>Why</b>Fresh daily at fair prices</div><div><b>Where</b>Visit us, see Contact</div><div><b>How</b>Order online or walk in</div></div></div></div></section>
+
+<section class="alt"><div class="wrap"><h2>Best sellers</h2><p class="sub">The orders our regulars come back for. Tap a card for sizes and details.</p><div class="grid" id="featured"></div></div></section>
+
+<section><div class="wrap"><h2>Coffee and bread around the world</h2><p class="sub">Pick a country to see its coffee and bread on our menu.</p><div class="flags" id="world"></div></div></section>
+
+<section><div class="wrap"><div class="promo"><div><h2>Buy 2 coffees, get ₱45 off</h2><p>Use code <span class="code">SJM2</span> at checkout. New here? <span class="code">WELCOME10</span> takes 10% off your first order.</p><p class="cd">Today's deal ends in <b id="cd">--:--:--</b></p></div><a class="btn dk" href="#products">Grab the deal</a></div></div></section>
+
+<section class="alt"><div class="wrap"><h2>What our customers say</h2><p class="sub">Sample reviews. Replace them with real ones from your customers.</p><div class="grid g3">
+<blockquote class="card rv"><p>The Spanish Latte is the best I've had in town. I'm here every Friday after class.</p><footer>Mika R., student</footer></blockquote>
+<blockquote class="card rv"><p>Pandesal still warm at 7 AM. Perfect with a black coffee before work.</p><footer>Mang Jun, regular</footer></blockquote>
+<blockquote class="card rv"><p>Quiet corners, fast Wi-Fi and fair prices. Great place to study.</p><footer>Ana L., freelancer</footer></blockquote></div></div></section>
+
+<section><div class="wrap"><h2>Inside SJM</h2><p class="sub">Add your own photos in images/gallery (g1.jpg to g6.jpg).</p><div class="gal" id="gal"></div></div></section>
+
+<section class="alt"><div class="wrap two"><div><h2>Questions</h2><p class="sub">Quick answers before you visit.</p></div><div>
+<details><summary>Can I order online and pick up?</summary><p>Yes. Add items to your cart, choose Pickup and we'll have it ready in about 15 minutes.</p></details>
+<details><summary>Do you deliver?</summary><p>Yes, within our delivery area for a ₱50 fee. Choose Delivery at checkout.</p></details>
+<details><summary>How do I pay?</summary><p>Cash on pickup or delivery, or GCash.</p></details>
+<details><summary>Can I order for an event?</summary><p>Yes. Use the Contact page and pick "Bulk or event order".</p></details></div></div></section>
+
+<section><div class="wrap"><div class="news"><div><h2>Get our weekly specials</h2><p>Join the list for new product launches, offers and a welcome email from us.</p></div>
+<form id="nf"><input id="nm" placeholder="Your name" aria-label="Your name" required><input id="ne" type="email" placeholder="you@email.com" aria-label="Email" required><button class="btn" type="submit">Subscribe</button></form><p id="nok" class="okt"></p></div></div></section>
+</div>
+
+<div class="page" id="features"><section><div class="wrap"><h2>What makes SJM different</h2><p class="sub">Four things we never compromise on.</p>
+<div class="f1"><div><h3>Small-batch roasting</h3><p>We roast every week in small batches, so each cup is fresh and aromatic. Our medium roast has chocolate and caramel notes that work hot or iced.</p><p><a class="btn" href="#products">Taste it</a></p></div>
+<div class="ph"><span class="phn">Feature photo<br><small>images/feature1.jpg</small></span><img src="images/feature1.jpg" alt="Roasting coffee" loading="lazy" onerror="this.remove()"></div></div>
+<div class="grid g4"><div class="card fc"><h3>Baked before sunrise</h3><p>Breads leave the oven at 5 AM every day.</p></div><div class="card fc"><h3>Fairly sourced</h3><p>Beans from local and partner farms at fair prices.</p></div><div class="card fc"><h3>A place to stay</h3><p>Free Wi-Fi, outlets and quiet corners.</p></div><div class="card fc"><h3>Order ahead</h3><p>Skip the line with online ordering.</p></div></div>
+<h2 style="margin-top:56px">How ordering works</h2><ol class="steps"><li><b>Choose</b>Browse the menu and pick a size.</li><li><b>Order</b>Check out as pickup or delivery.</li><li><b>Enjoy</b>Collect it fresh at the counter.</li></ol>
+</div></section></div>
+
+<div class="page" id="products"><section><div class="wrap"><h2>Our menu</h2><p class="sub">Coffee and breads, made fresh daily. Prices in Philippine pesos.</p>
+<p class="sub" id="src" style="font-size:.85rem;margin-top:-18px"></p>
+<div class="tools"><input id="q" type="search" placeholder="Search the menu" aria-label="Search the menu"><select id="so" aria-label="Sort"><option value="0">Featured</option><option value="1">Price: low to high</option><option value="2">Price: high to low</option><option value="3">Name A–Z</option></select>
+<select id="ctry" aria-label="Country"></select><button class="chip on" data-c="All">All</button><button class="chip" data-c="Coffee">Coffee</button><button class="chip" data-c="Bread">Bread</button><button class="chip" data-c="Saved">♥ Saved</button></div>
+<div class="grid" id="plist"></div><p id="none" class="sub" hidden>No items match. Try another word or filter.</p></div></section></div>
+
+<div class="page" id="contact"><section><div class="wrap"><h2>Contact us</h2><p class="sub">Questions, bulk orders or feedback? We reply within a day.</p>
+<div class="two"><form id="cf" novalidate>
+<label for="n">Customer name</label><input id="n"><div class="err" id="en"></div>
+<label for="e">Email address</label><input id="e" type="email"><div class="err" id="ee"></div>
+<label for="s">Subject</label><select id="s"><option>General question</option><option>Bulk or event order</option><option>Feedback</option><option>Other</option></select>
+<label for="d">Date</label><input id="d" type="date">
+<label for="m">Message</label><textarea id="m" rows="5"></textarea><div class="err" id="em"></div>
+<p><button class="btn" type="submit">Send message</button></p><div class="ok" id="cok" role="status"></div></form>
+<div><div class="info"><h3>Visit SJM Coffee</h3><p>📍 5th Floor Bart Mall, Angeles City, Pampanga</p><p>📞 (63+) 916 321 7890</p><p>✉️ sjmcoffee.business@gmail.com</p><p>🕖 Mon–Fri 7 AM – 9 PM<br>🕖 Sat–Sun 8 AM – 10 PM</p><p>Facebook: facebook.com/sjmcoffee<br>Instagram: @sjmcoffee<br>TikTok: @sjmcoffee</p></div>
+<!-- MAP: paste your Google Maps embed iframe here -->
+<div class="ph map"><span class="phn">Map goes here<br><small>Paste a Google Maps embed in index.html</small></span></div></div></div></div></section></div>
+</main>
+<footer><div class="wrap"><img src="images/logo.png" alt="" width="48" height="48"><p>© 2026 SJM Coffee. Brewed slow. Baked fresh.</p></div></footer>
+
+<dialog id="mailm"><button class="ib x" id="emx" aria-label="Close">✕</button><div class="eh" id="eh"></div><iframe id="ef" title="Welcome email preview"></iframe><div class="efoot"><button class="btn bs" id="edl">Download this email (.html)</button></div></dialog>
+<dialog id="pm"><button class="ib x" id="pmx" aria-label="Close">✕</button><div class="mg" id="pmc"></div></dialog>
+<aside id="drawer" aria-label="Your order"><div class="row"><h3>Your order</h3><button class="chip" id="cx">Close</button></div>
+<div id="cartl"></div>
+<form id="co" novalidate><div class="row sm"><span>Subtotal</span><b id="st">₱0</b></div><div class="row sm"><span>Discount</span><b id="ds">₱0</b></div><div class="row sm"><span>Delivery</span><b id="dl">₱0</b></div><div class="row"><b>Total</b><span class="price" id="tot">₱0</span></div>
+<input id="cn" placeholder="Your name" aria-label="Your name"><input id="cph" placeholder="Phone number" aria-label="Phone">
+<select id="cm" aria-label="Pickup or delivery"><option>Pickup</option><option>Delivery</option></select><select id="cy" aria-label="Payment"><option>Cash</option><option>GCash</option></select>
+<input id="cp" placeholder="Promo code (SJM2, WELCOME10)" aria-label="Promo code">
+<p class="err" id="ce"></p><button class="btn" style="width:100%" type="submit">Place order</button><div class="ok" id="ook" role="status"></div></form></aside>
+<script src="js/main.js"></script></body></html>

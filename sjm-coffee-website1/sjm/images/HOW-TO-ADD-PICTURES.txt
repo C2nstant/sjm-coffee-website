@@ -1,0 +1,67 @@
+HOW TO ADD YOUR PICTURES
+========================
+1. Put each photo in the folder shown below. Use .jpg, and keep the file name EXACTLY the same.
+2. Refresh the page. The photo automatically replaces the colored name box.
+   (If a file is missing, the site just shows the product name, so nothing breaks.)
+
+PRODUCT PHOTOS -> images/products/
+  caramel-macchiato.jpg   (Caramel Macchiato, USA)
+  spanish-latte.jpg   (Spanish Latte, Spain)
+  cappuccino.jpg   (Cappuccino, Italy)
+  cafe-latte.jpg   (Café Latte, Italy)
+  americano.jpg   (Americano, USA)
+  espresso.jpg   (Espresso, Italy)
+  iced-mocha.jpg   (Iced Mocha, USA)
+  cold-brew.jpg   (Cold Brew, USA)
+  ube-cheese-pandesal.jpg   (Ube Cheese Pandesal, Philippines)
+  classic-pandesal.jpg   (Classic Pandesal, Philippines)
+  butter-croissant.jpg   (Butter Croissant, France)
+  ensaymada.jpg   (Ensaymada, Philippines)
+  cinnamon-roll.jpg   (Cinnamon Roll, Sweden)
+  banana-bread.jpg   (Banana Bread, USA)
+  kapeng-barako.jpg   (Kapeng Barako, Philippines)
+  turkish-coffee.jpg   (Turkish Coffee, Turkey)
+  vietnamese-egg-coffee.jpg   (Vietnamese Egg Coffee, Vietnam)
+  cortado.jpg   (Cortado, Spain)
+  flat-white.jpg   (Flat White, Australia)
+  cafe-cubano.jpg   (Café Cubano, Cuba)
+  affogato.jpg   (Affogato, Italy)
+  cafe-de-olla.jpg   (Café de Olla, Mexico)
+  dalgona-coffee.jpg   (Dalgona Coffee, South Korea)
+  yuenyeung.jpg   (Yuenyeung, Hong Kong)
+  einspanner.jpg   (Einspänner, Austria)
+  ethiopian-buna.jpg   (Ethiopian Buna, Ethiopia)
+  kopi-susu.jpg   (Kopi Susu, Indonesia)
+  cafe-au-lait.jpg   (Café au Lait, France)
+  baguette.jpg   (Baguette, France)
+  brioche.jpg   (Brioche, France)
+  focaccia.jpg   (Focaccia, Italy)
+  pretzel.jpg   (Soft Pretzel, Germany)
+  naan.jpg   (Garlic Naan, India)
+  pita.jpg   (Pita Bread, Greece)
+  pao-de-queijo.jpg   (Pão de Queijo, Brazil)
+  melonpan.jpg   (Melonpan, Japan)
+  shokupan.jpg   (Shokupan, Japan)
+  challah.jpg   (Challah, Israel)
+  bagel.jpg   (Plain Bagel, USA)
+  concha.jpg   (Concha, Mexico)
+  roti-canai.jpg   (Roti Canai, Malaysia)
+  cheese-danish.jpg   (Cheese Danish, Denmark)
+  irish-soda-bread.jpg   (Irish Soda Bread, Ireland)
+
+OTHER PHOTOS
+  images/hero.jpg        big photo on the home page (portrait, about 900x1200)
+  images/about.jpg       About section photo
+  images/feature1.jpg    Features page photo
+  images/gallery/g1.jpg to g6.jpg   Inside SJM gallery
+
+TIPS
+  - Photos around 800px wide are enough. Compress them (squoosh.app) so the site loads fast.
+  - To use .png instead, change '.jpg' to '.png' in js/main.js and index.html.
+  - To add a new product, add a line to the P list in js/main.js, then add its photo.
+
+  sjm-home-brew-kit.jpg is also a product photo (SJM Home Brew Kit, Philippines) in images/products/
+
+WELCOME EMAIL IMAGES (already included) -> images/email/
+  hero.jpg (banner), step1.jpg to step5.jpg (how-to photos), footer-logo.png, fb.png, ig.png, tt.png
+  Replace any of them with your own files using the same names. The 5 tiles under 'Browse Our Other Products' use your product photos from images/products/.
